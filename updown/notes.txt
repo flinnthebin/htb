@@ -1,0 +1,1 @@
+(1) sudo nmap -sC -sV -oA nmap/updown 10.10.11.177
