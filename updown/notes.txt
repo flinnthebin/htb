@@ -1,1 +1,8 @@
-(1) sudo nmap -sC -sV -oA nmap/updown 10.10.11.177
+(1) nmap 10.10.11.177 (wrote nmap-fast-scan for this)
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Is my Website up ?
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
